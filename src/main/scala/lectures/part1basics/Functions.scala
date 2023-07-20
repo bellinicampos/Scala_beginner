@@ -1,4 +1,4 @@
-package lectures
+package lectures.part1basics
 
 object Functions extends App {
 
@@ -30,11 +30,11 @@ object Functions extends App {
   println(aBigFunction(4))
 
   /**
-    1. A greeting function (name, age) => "Hi, my name is $name and I'm $age years old"
-    2. Factorial function 1 * 2 * ... * n
-    3. A Fibonacci function
-    4. Test if a number is prime
-  */
+   * 1. A greeting function (name, age) => "Hi, my name is $name and I'm $age years old"
+   * 2. Factorial function 1 * 2 * ... * n
+   * 3. A Fibonacci function
+   * 4. Test if a number is prime
+   */
 
   // 1
   def aGreetingFunction(name: String, age: Int): Unit = println(s"Hi, my name is $name and I'm $age years old.")
